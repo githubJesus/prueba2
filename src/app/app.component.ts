@@ -10,17 +10,18 @@ import {ApexChart} from 'ng-apexcharts'
 export class AppComponent {
   title = 'prueba2';
   chartOptions: any = {
-    series: [44, 55, 41, 17, 15],
+    // series: [44, 55, 41, 17, 15],
+    series: [15, 41, 55, 44, 17],
     chart: {
       type: 'pie',
-      height: 350,
+      height: 150,
     },
     labels: ['Apple', 'Mango', 'Banana', 'Orange', 'Watermelon'],
   };
   
   chart: ApexChart = {
     type: 'pie',
-    height: 350,
+    height: 150,
   };
   
   ngOnInit() {
